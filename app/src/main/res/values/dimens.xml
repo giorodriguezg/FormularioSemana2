@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dnombre">50dp</dimen>
+    <dimen name="dtelefono">30dp</dimen>
+    <dimen name="demail">30dp</dimen>
+    <dimen name="ddescripcion">30dp</dimen>
+    <dimen name="confirmacion_titulo">40dp</dimen>
+
+
+</resources>

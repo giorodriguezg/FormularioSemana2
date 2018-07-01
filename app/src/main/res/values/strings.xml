@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="pnombre">Nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+    <string name="pfecha">fecha</string>
+    <string name="pdescripcion">descripcion</string>
+    <string name="confirmacion">Confirmar Datos</string>
+    <string name="tvnombre">Nombre:</string>
+    <string name="tvfecha">Fecha de Nacimiento:</string>
+    <string name="tvtel">Teléfono:</string>
+    <string name="tvemail">Email:</string>
+    <string name="tvdescripcion">Descripción:</string>
+    <string name="editar">Editar Datos</string>
+    <string name="pfechayear">year</string>
+    <string name="pfechaday">day</string>
+    <string name="pfechamonth">month</string>
+    <string name="datepicker">datepicker</string>
+    <string name="pdia">dia</string>
+</resources>

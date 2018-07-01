@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.grgiral.formulario.ConfirmActivity">
+
+    <TextView
+        android:id="@+id/tvConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/confirmacion"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat"
+        android:textStyle="bold"
+        android:textSize="@dimen/confirmacion_titulo" />
+
+
+    <TextView
+        android:id="@+id/tvnombre"
+        android:textStyle="bold"
+        android:layout_below="@id/tvConfirm"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="69dp"
+        android:text="@string/tvnombre"/>
+    <TextView
+        android:id="@+id/tvnombrep"
+        android:layout_toRightOf="@id/tvnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="69dp"
+        />
+
+    <TextView
+        android:id="@+id/tvfecha"
+        android:textStyle="bold"
+        android:layout_below="@id/tvnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvfecha"/>
+    <TextView
+        android:id="@+id/tvfechap"
+        android:layout_toRightOf="@id/tvfecha"
+        android:layout_below="@id/tvnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tvtel"
+        android:textStyle="bold"
+        android:layout_below="@id/tvfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvtel"/>
+    <TextView
+        android:id="@+id/tvtelp"
+        android:layout_toRightOf="@id/tvtel"
+        android:layout_below="@id/tvfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:textStyle="bold"
+        android:layout_below="@id/tvtel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvemail"/>
+    <TextView
+        android:id="@+id/tvemailp"
+        android:layout_toRightOf="@id/tvemail"
+        android:layout_below="@id/tvtel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/tvdescripcion"
+        android:textStyle="bold"
+        android:layout_below="@id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvdescripcion"/>
+    <TextView
+        android:id="@+id/tvdescripcionp"
+        android:layout_toRightOf="@id/tvdescripcion"
+        android:layout_below="@id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/abeditar"
+        android:layout_below="@id/tvdescripcion"
+        android:layout_centerHorizontal="true"
+        android:text="@string/editar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="editar"/>
+
+</RelativeLayout>
